@@ -2,19 +2,19 @@
 
 .team__info {
   max-width: 370px;
-  height: 420px;
+  height: 500px;
   margin: 0 auto;
   margin-top: 60px;
   position: relative;
   border: 4px solid $light-color;
-  padding: 50px;
+  padding: 30px;
   margin-bottom: 60px;
 
   h4 {
     padding-bottom: 20px;
   }
   p {
-    padding-bottom: 20px;
+    // padding-bottom: 20px;
   }
   p:last-child {
     cursor: pointer;

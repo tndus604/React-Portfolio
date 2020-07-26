@@ -1,14 +1,15 @@
 @import '../../style/App.scss';
 
 .hero {
-  padding-top:35vh;
-  height: 70vh;
+  padding-top:45vh;
+  height: 100vh;
   width: 100%;
-  position: relative;
-  background-image: linear-gradient( rgba(36, 0, 25, 0.452), rgba(37, 1, 26, 0.452) ), url("https://cdn-stack.compsmag.com/wp-content/uploads/2020/03/best-hp-laptops-for-programming-hp-tech-takes-1-1024x369.jpg");
+  position: relative; 
+  background-image: linear-gradient( rgba(36, 0, 25, 0.452), rgba(37, 1, 26, 0.452) ), url("https://images.idgesg.net/images/article/2018/08/gettyimages-1012716694-100768243-large.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
+  // linear-gradient( rgba(36, 0, 25, 0.452), rgba(37, 1, 26, 0.452) ),
 }
 
 #haley {

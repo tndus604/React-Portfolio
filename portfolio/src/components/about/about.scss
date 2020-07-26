@@ -4,6 +4,22 @@
   padding: 60px 0;
 }
 
+.container {
+  text-align: center;
+}
+
+h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: rgb(235, 161, 173);
+  font-size: x-large;
+}
+
+p {
+  padding-right:10px;
+  padding-left: 10px;
+}
+
 @media screen and (max-width: 990px) {
   #about {
     text-align: center;

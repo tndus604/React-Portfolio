@@ -5,11 +5,17 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-color: $white-color;  
+  background-color: white;
+  color: black;
   width: 100%;
-  padding: 9px 0;
   transition:  0.3s ease;
   z-index: 100;
+
+  .navbar-brand {
+    color: rgb(235, 161, 173);
+    font-size: 50px;
+    font-family: 'Grenze Gotisch', cursive;
+  }
 
   .mobile__menu {
     display: none;
@@ -37,8 +43,9 @@
 }
 
 .extraLargeNavbar {
-  padding: 29px 0;
+  padding: 5px 0;
 }
+
 
 // MOBILE NAVBAR
 .mobile__navbar {
@@ -66,6 +73,11 @@
   .mobile__navbar-logo {
     padding: 10px;
     cursor: pointer;
+  }
+  .navbar-brand {
+    color: rgb(235, 161, 173);
+    font-size: 70px;
+    font-family: 'Grenze Gotisch', cursive;
   }
   .mobile__navbar-menu {
     padding-top: 20%;

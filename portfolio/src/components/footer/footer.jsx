@@ -2,8 +2,6 @@ import React from "react";
 import { Row, Col } from "react-flexbox-grid";
 import { Link } from "react-scroll";
 import "./footer.scss";
-
-import Logo from '../../assets/footer/logo.svg';
 import Arrow from '../../assets/footer/arrow.svg';
 
 const partnerBox = () => (
@@ -12,8 +10,8 @@ const partnerBox = () => (
       <Row>
         <Col xs={12} sm={6} md={6}>
           <div className="footer-box">
-            <img src={Logo} alt="logo" />
-            <p>© 2020 - Mint,All Right Reserved</p>
+            <h1 className="logo">HJ</h1>
+            <p>© 2020 - Haley Jeon,All Right Reserved</p>
           </div>
         </Col>
         <Col xs={12} sm={6} md={6}>

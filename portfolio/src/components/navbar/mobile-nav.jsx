@@ -4,7 +4,6 @@ import { Link } from "react-scroll";
 import "./navbar.scss";
 // Assets
 import CloseIcons from '../../assets/navbar/mobile-close.svg';
-import Logo from "../../assets/navbar/logo-yellow.svg";
 
 const mobileNav = (props) => (
   <div className={`mobile__navbar ${props.isOpen ? "mobile__open" : ""}`}>
@@ -20,7 +19,7 @@ const mobileNav = (props) => (
         duration={500}
         onClick={props.closeMobileMenu}
       >
-        <img src={Logo} alt="logo" />
+        <h1 className="navbar-brand">HJ</h1>
       </Link>
     </div>
     <div className="mobile__navbar-menu">
