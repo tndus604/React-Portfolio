@@ -7,8 +7,8 @@ const hero = () => (
   <div className="hero text-center" id="hero">
     <div className="wrapper">
           <div className="hero-info">
-            <h1>Hi! I'm <span id="haley">Haley Jeon</span></h1>
-            <h2>
+            <h1 className="animate__animated animate__fadeInDown animate__slower">Hi! I'm <span id="haley">Haley Jeon</span></h1>
+            <h2 className="animate__animated animate__fadeInUp animate__slower">
               Full Stack Web Develooper
             </h2>
           </div>

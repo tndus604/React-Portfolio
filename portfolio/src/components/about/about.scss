@@ -20,6 +20,22 @@ p {
   padding-left: 10px;
 }
 
+#description {
+  line-height: 1.5;
+  font-size: 12px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-bottom: 40px;
+
+}
+
+#progress {
+  margin-top: 60px;
+  margin-bottom:60px;
+}
+
+
+
 @media screen and (max-width: 990px) {
   #about {
     text-align: center;

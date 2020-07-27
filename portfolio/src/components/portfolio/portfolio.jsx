@@ -26,7 +26,7 @@ class Portfolio extends React.Component {
           id: "1",
           preview: memychefi,
           title: "Me MyChef & I",
-          tag: "branding",
+          tag: "MERN",
           desc: "An app that users can keep track what is in the fridge and can search for recipe based on its ingredients.",
           weblink: "https://lit-badlands-54539.herokuapp.com/",
           gitlink: "https://github.com/tndus604/Me-My-Chef-and-I",
@@ -35,7 +35,7 @@ class Portfolio extends React.Component {
           id: "2",
           preview: eatBurger,
           title: "Eat-Da-Burger!",
-          tag: "web",
+          tag: "MERN",
           desc: "Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.",
           weblink: "https://warm-island-93846.herokuapp.com/",
           gitlink: "https://github.com/tndus604/Eat-Da-Burger",
@@ -44,7 +44,7 @@ class Portfolio extends React.Component {
           id: "3",
           preview: pethome,
           title: "Pethome",
-          tag: "illustrations",
+          tag: "HTML/CSS",
           desc: "A web-based platform that facilitates searches for dogs available for adoption",
           weblink: "https://nuleeannajeon.github.io/PetHome/",
           gitlink: "https://github.com/nuleeannajeon/PetHome",
@@ -53,7 +53,7 @@ class Portfolio extends React.Component {
           id: "4",
           preview: weather,
           title: "Weather Dashboard",
-          tag: "web",
+          tag: "Javascript",
           desc: "Search for multi-day weather forecasts of any particular city.",
           weblink: "https://tndus604.github.io/Weather-dashboard/",
           gitlink: "https://github.com/tndus604/Weather-dashboard",
@@ -62,7 +62,7 @@ class Portfolio extends React.Component {
           id: "5",
           preview: scheduler,
           title: "Daily Scheduler",
-          tag: "illustrations",
+          tag: "Javascript",
           desc: "Put your schedules in this daily schduler.",
           weblink: "https://tndus604.github.io/Work-Day-Scheduler/",
           gitlink: "https://github.com/tndus604/Work-Day-Scheduler",
@@ -71,7 +71,7 @@ class Portfolio extends React.Component {
           id: "6",
           preview: notetaker,
           title: "Note Taker",
-          tag: "branding",
+          tag: "MERN",
           desc: "A server-based application that can write, save and delete the notes.",
           weblink: "https://frozen-beyond-47225.herokuapp.com/",
           gitlink: "https://github.com/tndus604/Note-Taker",
@@ -173,18 +173,18 @@ class Portfolio extends React.Component {
                   </li>
                   <li
                     className={this.state.pickedFilter === "branding" ? "portfolio__nav-active font12" : "font12"}
-                    onClick={() => this.filterGallery("branding")}
+                    onClick={() => this.filterGallery("HTML/CSS")}
                   >
-                    BRANDING
+                    HTML/CSS
                   </li>
                   <li
                     className={this.state.pickedFilter === "illustrations" ? "portfolio__nav-active font12" : "font12"}
-                    onClick={() => this.filterGallery("illustrations")}
+                    onClick={() => this.filterGallery("Javascript")}
                   >
-                    ILLUSTRATIONS
+                    JAVASCRIPT
                   </li>
-                  <li className={this.state.pickedFilter === "web" ? "portfolio__nav-active font12" : "font12"} onClick={() => this.filterGallery("web")}>
-                    WEB
+                  <li className={this.state.pickedFilter === "web" ? "portfolio__nav-active font12" : "font12"} onClick={() => this.filterGallery("MERN")}>
+                    MERN
                   </li>
                 </ul>
               </div>

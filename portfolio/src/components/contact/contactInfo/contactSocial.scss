@@ -9,9 +9,16 @@
   cursor: pointer;
 }
 
-.contact__social:hover {
-  filter: invert(77%) sepia(99%) saturate(652%) hue-rotate(354deg) brightness(98%) contrast(111%);
+i {
+  color: rgb(26, 26, 26);
 }
+
+i:hover {
+  color: rgb(235, 161, 173)
+}
+
+
+
 
 
 

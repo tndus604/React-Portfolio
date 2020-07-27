@@ -7,7 +7,7 @@ import ContactInfo from './contactInfo/contactInfo';
 import ContactSocial from './contactInfo/contactSocial';
 import Modal from '../contact-modal/Modal';
 
-import ContactBackground from '../../assets/contact/bg.png';
+import profile4 from '../../assets/contact/profile4.jpeg';
 
 class Contact extends React.Component {
   constructor(props) {
@@ -115,7 +115,7 @@ class Contact extends React.Component {
         <div className="wrapper">
           <Title title="CONTACT US." />
           <p className="font12">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt<br></br>ut labore et dolore magna aliqua.
+            If you have any question or want to work with me, please send me an email below.
           </p>
 
           <Row className="padding40">
@@ -138,7 +138,7 @@ class Contact extends React.Component {
             </Col>
             <Col md={12} lg={6}>
               <div className="flex-center">
-                <img src={ContactBackground} alt="contact background" />
+                <img id="profile-img"src={profile4} alt="contact background" />
               </div>
             </Col>
           </Row>

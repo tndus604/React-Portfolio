@@ -1,7 +1,7 @@
 @import '../../style/App.scss';
 
 .hero {
-  padding-top:45vh;
+  padding-top:50vh;
   height: 100vh;
   width: 100%;
   position: relative; 
@@ -9,7 +9,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
-  // linear-gradient( rgba(36, 0, 25, 0.452), rgba(37, 1, 26, 0.452) ),
 }
 
 #haley {
@@ -18,4 +17,7 @@
 
 h1 {
   font-size: 50px;
+  padding-bottom: 20px;
 }
+
+
