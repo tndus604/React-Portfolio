@@ -9,7 +9,7 @@ const hero = () => (
           <div className="hero-info">
             <h1 className="animate__animated animate__fadeInDown animate__slower">Hi! I'm <span id="haley">Haley Jeon</span></h1>
             <h2 className="animate__animated animate__fadeInUp animate__slower">
-              Full Stack Web Develooper
+              Full Stack Web Developer
             </h2>
           </div>
     </div>
