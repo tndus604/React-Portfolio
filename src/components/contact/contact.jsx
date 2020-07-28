@@ -113,7 +113,7 @@ class Contact extends React.Component {
       <div id="contact">
         {modalRender}
         <div className="wrapper">
-          <Title title="CONTACT US." />
+          <Title title="CONTACT" />
           <p className="font12">
             If you have any question or want to work with me, please send me an email below.
           </p>

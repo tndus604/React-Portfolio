@@ -163,7 +163,7 @@ class Portfolio extends React.Component {
     return (
       <div id="portfolio">
         <div className="wrapper">
-          <Title title="Projects" />
+          <Title title="Portfolio" />
           <Row>
             <Col xs={12} sm={12} md={8} lg={9}>
               <div className="portfolio__nav">
