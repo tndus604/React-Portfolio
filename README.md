@@ -1,6 +1,6 @@
 # React-Portfolio
 
-My deployed URL: 
+My deployed URL: https://young-ravine-81604.herokuapp.com/
 
 ![Preview](./Screenshot1.png)
 ![Preview2](./Screenshot2.png)
