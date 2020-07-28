@@ -2,7 +2,7 @@
   "name": "mint-portfolio-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tndus604.github.io/React-Portfolio/",
+  "homepage": ".",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -23,7 +23,7 @@
     "swiper": "^5.4.0"
   },
   "scripts": {
-    "start": "serve -s build", 
+    "start": "serve -s build",
     "startdev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
