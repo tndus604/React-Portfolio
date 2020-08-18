@@ -7,7 +7,7 @@ import "./portfolio.scss";
 import Arrow from "../../assets/portfolio/arrow.svg";
 import memychefi from "../../assets/portfolio/memychefi.png";
 import eatBurger from "../../assets/portfolio/eatBurger.png";
-import pethome from "../../assets/portfolio/pethome.png";
+import jobLogger from "../../assets/portfolio/jobLogger.png";
 import weather from "../../assets/portfolio/weather.png";
 import scheduler from "../../assets/portfolio/scheduler.png";
 import notetaker from "../../assets/portfolio/notetaker.png";
@@ -42,12 +42,12 @@ class Portfolio extends React.Component {
         },
         {
           id: "3",
-          preview: pethome,
-          title: "Pethome",
-          tag: "HTML/CSS",
-          desc: "A web-based platform that facilitates searches for dogs available for adoption",
-          weblink: "https://nuleeannajeon.github.io/PetHome/",
-          gitlink: "https://github.com/nuleeannajeon/PetHome",
+          preview: jobLogger,
+          title: "JobLogger",
+          tag: "MERN",
+          desc: "JobLogger helps you keep track of all that in a central location, as well as offering a portal to search for jobs and easily save them.",
+          weblink: "https://joblogger-loc.herokuapp.com/",
+          gitlink: "https://github.com/nuleeannajeon/JobLogger",
         },
         {
           id: "4",

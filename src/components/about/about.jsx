@@ -1,6 +1,5 @@
 import React from "react";
 import { Row, Col } from "react-flexbox-grid";
-import {ProgressBar} from 'react-bootstrap';
 import "./about.scss";
 // Components
 import TeamBox from './teamBox';
@@ -39,7 +38,7 @@ const about = () => (
       </div>
       <Row>
         <Col md={12} lg={6}>
-          <TeamBox avatar={profile2} name="Luke Skywalker" job="Web designer" />
+          <TeamBox avatar={profile2} name="Haley Jeon" job="Web Developer" />
         </Col>
         <Col md={12} lg={6}>
           <TeamInfo />

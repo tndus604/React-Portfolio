@@ -28,7 +28,7 @@ class App extends React.Component {
 
   // Detect if user is scorlled down (used for add/disable extra large navbar)
   userIsScrolled = () => {
-    if (window.pageYOffset > 10) {
+    if (window.pageYOffset > 100) {
       this.setState({ userIsScrolled: true });
     } else {
       this.setState({ userIsScrolled: false });

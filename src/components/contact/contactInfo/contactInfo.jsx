@@ -17,7 +17,7 @@ const contactInfo = () => (
         <Col xs={4} lg={3} className="contact__info">
           <ContactInfoBox
             icon={ContactInfoIcon1}
-            textLine1="4978 Yonge St,"
+            textLine1="5162 Yonge St"
             textLine2="Toronto ON"
           />
         </Col>
