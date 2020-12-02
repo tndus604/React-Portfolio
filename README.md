@@ -1,6 +1,6 @@
 # React-Portfolio
 
-My deployed URL: https://haleydeveloper.herokuapp.com/
+My deployed URL: https://tndus604.github.io/React-Portfolio/
 
 ![Preview](./Screenshot1.png)
 ![Preview2](./Screenshot2.png)
