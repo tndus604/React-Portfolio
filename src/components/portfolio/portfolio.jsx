@@ -5,6 +5,7 @@ import Masonry from "react-masonry-css";
 import "./portfolio.scss";
 //Assets
 import Arrow from "../../assets/portfolio/arrow.svg";
+import songcriminaldefence from "../../assets/portfolio/notetaker.png";
 import memychefi from "../../assets/portfolio/memychefi.png";
 import eatBurger from "../../assets/portfolio/eatBurger.png";
 import jobLogger from "../../assets/portfolio/jobLogger.png";
@@ -24,6 +25,14 @@ class Portfolio extends React.Component {
       projects: [
         {
           id: "1",
+          preview: songcriminaldefence,
+          title: "Song Criminal Defence",
+          tag: "HTML/CSS",
+          desc: "This is the website for criminal defence law firm with SEO skills included.",
+          weblink: "https://songcriminaldefence.com",
+        },
+        {
+          id: "2",
           preview: memychefi,
           title: "Me MyChef & I",
           tag: "MERN",
@@ -32,7 +41,7 @@ class Portfolio extends React.Component {
           gitlink: "https://github.com/tndus604/Me-My-Chef-and-I",
         },
         {
-          id: "2",
+          id: "3",
           preview: eatBurger,
           title: "Eat-Da-Burger!",
           tag: "MERN",
@@ -41,7 +50,7 @@ class Portfolio extends React.Component {
           gitlink: "https://github.com/tndus604/Eat-Da-Burger",
         },
         {
-          id: "3",
+          id: "4",
           preview: jobLogger,
           title: "JobLogger",
           tag: "MERN",
@@ -50,7 +59,7 @@ class Portfolio extends React.Component {
           gitlink: "https://github.com/nuleeannajeon/JobLogger",
         },
         {
-          id: "4",
+          id: "5",
           preview: weather,
           title: "Weather Dashboard",
           tag: "Javascript",
@@ -59,7 +68,7 @@ class Portfolio extends React.Component {
           gitlink: "https://github.com/tndus604/Weather-dashboard",
         },
         {
-          id: "5",
+          id: "6",
           preview: scheduler,
           title: "Daily Scheduler",
           tag: "Javascript",
@@ -68,7 +77,7 @@ class Portfolio extends React.Component {
           gitlink: "https://github.com/tndus604/Work-Day-Scheduler",
         },
         {
-          id: "6",
+          id: "7",
           preview: notetaker,
           title: "Note Taker",
           tag: "MERN",
