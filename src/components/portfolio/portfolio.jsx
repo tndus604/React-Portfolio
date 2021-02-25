@@ -27,7 +27,7 @@ class Portfolio extends React.Component {
           preview: memychefi,
           title: "Me MyChef & I",
           tag: "MERN",
-          desc: "An app that users can keep track what is in the fridge and can search for recipe based on its ingredients.",
+          desc: "An app that users can keep track what is in their fridge and can search for recipe based on its ingredients.",
           weblink: "https://lit-badlands-54539.herokuapp.com/",
           gitlink: "https://github.com/tndus604/Me-My-Chef-and-I",
         },
